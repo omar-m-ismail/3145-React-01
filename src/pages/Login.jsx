@@ -52,7 +52,7 @@ export default function Login( ) {
           SetError(data.message);
           toast.error(<ErrorComponent message={data.message} />, {
             icon: false,
-            closeButton: false
+            closeButton: true
           });
           // toast(data.message);
           // toast.error(data.message);
